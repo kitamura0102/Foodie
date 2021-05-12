@@ -1,0 +1,189 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #353638;
+}
+
+
+a{
+    background-color: #0C0C0D;
+    text-decoration: none;
+}
+
+.navbar{    
+    position: relative;
+    margin: 2rem 4rem;
+    height: 3rem;
+    width: 88%;
+    
+    background-color: #0C0C0D;
+    overflow: hidden;
+    border-radius: 50px;
+    
+    
+}
+
+.navbar-main{
+    position: relative;
+    left: 20px;
+
+}
+.main-character{
+    font-size: 28px;
+    font-family: 'Piedra';
+    float: left;
+    position: relative;
+    color: #F7A440;
+    top: 6px;
+    
+}
+.btn{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    float: right;
+    position: relative;
+    padding: 10px 25px;
+    color: #fff;
+    right: 30px;
+    
+}
+
+.main{
+    color: #F7A440;
+}
+
+.title-a{
+    color: #fff;
+    position: relative;
+    left: 35px;
+    height: 3rem;
+    padding: 13px 30px;
+    
+}
+
+.about-sel{
+    color: #0C0C0D;
+    background-color: #fff;
+    border-radius: 50px;
+    position: relative;
+    padding: 13px 30px;
+    left: 37px;
+    bottom: 1px;
+    
+    
+    
+    
+}
+
+#sel{
+    position: relative;
+    margin: 1px;   
+}
+
+/* mid section */
+h1{
+    font-family: 'Piedra';
+    font-size: 45px;
+    font-weight: 400;
+    color: #F7A440;
+}
+h3{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.mid-section{
+    position: absolute;
+    float: right;
+    letter-spacing: 2px;
+    right: 30%;
+    left: 450px;
+    bottom: 150px;
+}
+
+img{
+    width: 417px;
+    height: 550px;
+    position: absolute;
+    top: 85px;
+    
+}
+
+.btn-2{
+    
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    left: 450px;
+    bottom: 90px;
+    letter-spacing: 1px;
+    
+
+}
+
+.primer{
+    
+    background-color:#0c0c0c; 
+    color: #FFF;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.segundo{
+    background-color: #FFF;
+    color: #0c0c0c;
+    border-radius: 40px;
+    padding: 10px 25px;
+    margin:70px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Animations */
+
+.title-a:hover{
+    background-color: #fff;
+    color: #0c0c0c;
+    transition: 0.8s linear;
+    
+}
+
+.about-sel:hover{
+    background-color: #0c0c0c;
+    color: #fff;
+    transition: .8s;
+}
+
+.primer:hover{
+    background-color: #FFF;
+    color:#0c0c0c ;
+    transition: .8s;
+}
+
+.segundo:hover{
+    background-color: #0c0c0c;
+    color: #FFF;
+    transition: .8s;
+}
+
+
+
+@media (max-width:1028px) {
+    #title {
+      text-align: center;
+    }
+  
+  }
